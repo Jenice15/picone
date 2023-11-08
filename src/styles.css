@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("/images/headerimage.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 675px;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 171px;
+    padding-top: 200px;
+}
+
+button {
+    padding: 16px 32px;
+    border: 1px solid aliceblue;
+    border-radius: 12px;
+    background-color: aliceblue;
+    font-family: Playfair Display;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(163, 199, 231);
+    border: none;
+    font-family: Playfair Display;
+    transition: 1s;
+    cursor: pointer;
+}
+.header-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-top: -95px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(19, 14, 14);
+    background-repeat: no-repeat;
+}
+.footer-web-paragraph {
+    font-size: 15px;
+}
+.footer-content {
+    padding-left: 80px;
+}
+.abt-me,
+.abt-site {
+    margin-left: 100px;
+}
+
+footer a {
+    color: aliceblue;
+}
