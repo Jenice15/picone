@@ -14,7 +14,7 @@ header {
         url("/images/headerimage.JPG");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 840.5px;
+    height: 836px;
 }
 
 h1 {
@@ -44,7 +44,7 @@ button:hover {
     cursor: pointer;
 }
 .header-paragraph {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.5;
@@ -68,15 +68,15 @@ main img {
     margin-left: 50px;
     font-size: 18px;
 }
-main p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 550;
-}
 
 main h3 {
     text-transform: uppercase;
     padding-left: 100px;
     margin-top: 23px;
+}
+main p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
 }
 
 .grid {
@@ -86,6 +86,16 @@ main h3 {
 }
 .grid-bg {
     background-color: rgb(19, 14, 14);
+    border-radius: 20px;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(
+            rgba(39, 32, 68, 0.5),
+            rgba(39, 32, 68, 0.5)
+        ),
+        url("/images/footer.JPG");
     border-radius: 20px;
 }
 .footer-web-paragraph {
@@ -105,21 +115,57 @@ footer a {
 }
 
 @media (max-width: 450px) {
+    body {
+        margin-top: -55px;
+        margin-left: -0.3px;
+    }
     header {
         width: 1000px;
         margin: 0 auto;
     }
-    .footer-content {
-        padding-left: 0;
-    }
-    footer {
-        font-size: 12px;
-    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr;
     }
     main {
         width: 1000px;
+    }
+    main img {
+        margin-left: 115px;
+        width: 650px;
+    }
+    main h3 {
+        margin-top: -290px;
+        text-align: center;
+        margin-right: 130px;
+        font-size: 48px !important;
+    }
+    main p {
+        margin-top: -310px;
+        text-align: center;
+        margin-right: 40px;
+        font-size: 38px !important;
+    }
+    .footer-content {
+        padding-left: 50px;
+    }
+    footer {
+        font-size: 32px !important;
+        width: 1000px;
+        height: 500px;
+        padding-bottom: 503px !important;
+    }
+
+    .abt-me {
+        margin-left: 50px !important;
+    }
+
+    .abt-site {
+        font-size: 32px !important;
+        margin-left: 50px;
+    }
+    footer h4 {
+        font-size: 38px;
     }
 }
