@@ -194,10 +194,14 @@ footer a {
         font-size: 30px;
     }
     .img-responsiveness {
-        width: 200px;
-        padding-left: 58px;
+        width: 300px;
+        height: 400px;
+        padding-left: 12px;
+        padding-top: 40px;
     }
-
+    .img-grid {
+        grid-template-columns: 1fr 1fr;
+    }
     .footer-content {
         padding-left: 50px;
     }
