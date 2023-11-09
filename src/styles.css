@@ -51,6 +51,10 @@ button:hover {
     margin-top: -95px;
 }
 main {
+    /* background-color: #352961; */
+    border-radius: 20px;
+}
+.section-1 {
     background-color: #352961;
     border-radius: 20px;
 }
@@ -88,7 +92,7 @@ main p {
     background-repeat: no-repeat;
 }
 .grid-bg {
-    background-color: rgb(19, 14, 14);
+    background-color: rgb(42, 6, 75);
     /* border-radius: 20px; */
 }
 .section-2-h2 {
@@ -127,6 +131,26 @@ main p {
 .card-footer {
     margin-bottom: 20px;
 }
+.section-3 {
+    background-color: #07011c;
+    border-radius: 20px;
+}
+.section-3-h2 {
+    text-align: center;
+    font-family: Playfair Display;
+    font-weight: 700px;
+    font-size: 32px;
+}
+.img-gallery {
+    max-width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+.img-gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
 
 footer {
     font-family: "Poppins", sans-serif;
@@ -159,7 +183,7 @@ footer a {
         margin-left: -0.3px;
     }
     header {
-        width: 1000px;
+        width: 1050px;
         margin: 0 auto;
     }
 
@@ -202,6 +226,10 @@ footer a {
     .img-grid {
         grid-template-columns: 1fr 1fr;
     }
+    img-gallery-grid {
+        padding-left: -300px;
+    }
+
     .footer-content {
         padding-left: 50px;
     }
