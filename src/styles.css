@@ -51,7 +51,7 @@ button:hover {
     margin-top: -95px;
 }
 main {
-    background-color: rgb(51, 0, 64);
+    background-color: #363b4e;
     border-radius: 20px;
 }
 section {
@@ -87,6 +87,41 @@ main p {
 .grid-bg {
     background-color: rgb(19, 14, 14);
     border-radius: 20px;
+}
+.section-2-h2 {
+    font-family: Playfair Display;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 63.98px;
+    text-align: center;
+}
+.section-2 {
+    background-color: black;
+}
+.section-2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+}
+.img-responsiveness {
+    max-width: 100%;
+    display: block;
+    height: 250px;
+}
+.card {
+    background: #352961;
+    border-radius: 20px;
+    text-align: center;
+}
+.card-body {
+    margin-top: 60px;
+}
+.img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-footer {
+    margin-bottom: 20px;
 }
 
 footer {
