@@ -101,10 +101,12 @@ main p {
     font-size: 32px;
     line-height: 63.98px;
     text-align: center;
+    margin-top: -20px;
 }
 .section-2 {
     background-color: #080516;
     border-radius: 20px;
+    /* margin-left: 50px; */
 }
 .section-2-grid {
     display: grid;
@@ -154,11 +156,16 @@ main p {
 
 footer {
     font-family: "Poppins", sans-serif;
+}
+.footer-bg {
     background-image: linear-gradient(
-            rgba(39, 32, 68, 0.5),
-            rgba(39, 32, 68, 0.5)
+            rgba(39, 32, 68, 0.9),
+            rgba(39, 32, 68, 0.9)
         ),
-        url("/images/footer.JPG");
+        url("/images/footerimage.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
     border-radius: 20px;
 }
 .footer-web-paragraph {
@@ -225,9 +232,10 @@ footer a {
     }
     .img-grid {
         grid-template-columns: 1fr 1fr;
+        grid-column-gap: -20px;
     }
-    img-gallery-grid {
-        padding-left: -300px;
+    .img-gallery-grid {
+        margin-left: -115px !important;
     }
 
     .footer-content {
