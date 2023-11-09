@@ -193,6 +193,10 @@ footer a {
         width: 1050px;
         margin: 0 auto;
     }
+    header {
+        width: 1150px;
+        height: 900px;
+    }
 
     .grid {
         display: grid;
@@ -202,9 +206,10 @@ footer a {
         width: 1000px;
     }
     main img {
-        margin-left: 115px;
+        margin-left: 189px;
         width: 650px;
     }
+
     main h3 {
         margin-top: -290px;
         text-align: center;
@@ -217,7 +222,21 @@ footer a {
         margin-right: 40px;
         font-size: 38px !important;
     }
-
+    .section-1 {
+        width: 938px;
+        margin-left: 50px;
+    }
+    .section-2 {
+        width: 938px;
+        margin-left: 50px;
+    }
+    .section-3 {
+        width: 938px;
+        margin-left: 50px;
+    }
+    .img-gallery {
+        margin-left: 100px;
+    }
     .section-2-paragraph {
         display: none;
     }
@@ -235,17 +254,27 @@ footer a {
         grid-column-gap: -20px;
     }
     .img-gallery-grid {
-        margin-left: -115px !important;
+        margin-left: -94px !important;
     }
 
     .footer-content {
         padding-left: 50px;
     }
+
     footer {
         font-size: 32px !important;
         width: 1000px;
         height: 500px;
         padding-bottom: 503px !important;
+        /* margin-left: 55px; */
+    }
+    .footer-bg {
+        width: auto;
+        height: 850px;
+    }
+    .section-f {
+        width: 938px;
+        margin-left: 50px;
     }
 
     .abt-me {
@@ -254,7 +283,7 @@ footer a {
 
     .abt-site {
         font-size: 32px !important;
-        margin-left: 50px;
+        margin-right: 90px !important;
     }
     footer h4 {
         font-size: 38px;
