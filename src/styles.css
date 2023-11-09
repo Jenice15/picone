@@ -206,7 +206,7 @@ footer a {
         width: 1000px;
     }
     main img {
-        margin-left: 189px;
+        margin-left: 130px;
         width: 650px;
     }
 
@@ -223,8 +223,10 @@ footer a {
         font-size: 38px !important;
     }
     .section-1 {
-        width: 938px;
-        margin-left: 50px;
+        width: 920px;
+        margin-left: 55px;
+        margin-top: 70px;
+        
     }
     .section-2 {
         width: 938px;
