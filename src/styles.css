@@ -266,6 +266,8 @@ footer a {
         width: 1000px;
         height: 500px;
         padding-bottom: 503px !important;
+        text-align: center;
+        margin: 10px 10px;
         /* margin-left: 55px; */
     }
     .footer-bg {
@@ -274,17 +276,20 @@ footer a {
     }
     .section-f {
         width: 938px;
-        margin-left: 50px;
+        margin-left: 40px;
+    }
+    .footer-margin{
+        margin-left:-60px
     }
 
     .abt-me {
-        margin-left: 50px !important;
+         margin-left: 35px !important; 
     }
 
     .abt-site {
         font-size: 32px !important;
-        margin-right: 90px !important;
-    }
+        margin-left: 35px !important;
+    
     footer h4 {
         font-size: 38px;
     }
