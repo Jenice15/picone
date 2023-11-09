@@ -193,6 +193,11 @@ footer a {
     h4 {
         font-size: 30px;
     }
+    .img-responsiveness {
+        width: 200px;
+        padding-left: 58px;
+    }
+
     .footer-content {
         padding-left: 50px;
     }
