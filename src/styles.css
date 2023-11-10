@@ -147,6 +147,11 @@ main p {
     max-width: 400px;
     height: 500px;
     border-radius: 20px;
+    transition: transform .2s;
+}
+.img-gallery:hover{
+
+     transform: scale(1.1);
 }
 .img-gallery-grid {
     display: grid;
@@ -155,7 +160,8 @@ main p {
 }
 
 .turtle-3{
-    filter: brightness(80%) ;
+    filter: brightness(80%);
+    
 }
 
 footer {
