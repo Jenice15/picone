@@ -154,6 +154,10 @@ main p {
     grid-gap: 20px;
 }
 
+.turtle-3{
+    filter: brightness(80%) ;
+}
+
 footer {
     font-family: "Poppins", sans-serif;
 }
