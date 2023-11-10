@@ -147,7 +147,7 @@ main p {
     max-width: 400px;
     height: 500px;
     border-radius: 20px;
-    transition: transform .2s;
+    transition: transform .1s;
 }
 .img-gallery:hover{
 
