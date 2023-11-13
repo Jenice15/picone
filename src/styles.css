@@ -194,6 +194,7 @@ footer a {
     color: aliceblue;
 }
 
+
 @media (max-width: 450px) {
     body {
         margin-top: -55px;
