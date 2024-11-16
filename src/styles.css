@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     background-image: linear-gradient(rgba(10, 8, 8, 0.6), rgba(11, 6, 6, 0.6)),
-        url('/images/IvanHeaderCollage.jpg');
+        url('/images/shaunHeaderImage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
