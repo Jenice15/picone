@@ -225,11 +225,12 @@ footer a {
         margin-left: 130px;
         width: 670px;
     }
-    /* .ivanIntroFull {
-        margin-top: 50px;
-    } */
+    .ivanIntroFull {
+        margin-top: 10px;
+    }
     .ivanIntro {
-        margin-top: 5px;
+        margin-top: 1px;
+        padding-top: 0;
     }
     main h3 {
         margin-top: -290px;
@@ -256,9 +257,9 @@ footer a {
         width: 938px;
         margin-left: 50px;
     }
-    .img-gallery {
+    /* .img-gallery {
         margin-left: 100px;
-    }
+    } */
     .section-2-paragraph {
         display: none;
     }
