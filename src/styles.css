@@ -199,6 +199,9 @@ footer a {
     color: aliceblue;
 }
 
+.moreAboutIvan{
+    font-size: 12px;
+}
 
 @media (max-width: 450px) {
     body {
