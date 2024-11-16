@@ -11,16 +11,15 @@ body {
 header {
     text-align: center;
     background-image: linear-gradient(rgba(10, 8, 8, 0.6), rgba(11, 6, 6, 0.6)),
-        url("/images/IvanHeaderCollage.jpg");
+        url('/images/IvanHeaderCollage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
 }
 
-.ivanIntro{
+.ivanIntro {
     padding-top: 200px;
     font-size: 18px;
-
 }
 h1 {
     font-family: Playfair Display;
@@ -49,7 +48,7 @@ button:hover {
     cursor: pointer;
 }
 .header-paragraph {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.5;
@@ -87,7 +86,7 @@ main h3 {
     margin-top: 23px;
 }
 main p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 550;
 }
 
@@ -152,11 +151,10 @@ main p {
     max-width: 400px;
     height: 500px;
     border-radius: 20px;
-    transition: transform .1s;
+    transition: transform 0.1s;
 }
-.img-gallery:hover{
-
-     transform: scale(1.1);
+.img-gallery:hover {
+    transform: scale(1.1);
 }
 .img-gallery-grid {
     display: grid;
@@ -164,20 +162,19 @@ main p {
     grid-gap: 20px;
 }
 
-.turtle-3{
+.turtle-3 {
     filter: brightness(80%);
-    
 }
 
 footer {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .footer-bg {
     background-image: linear-gradient(
             rgba(39, 32, 68, 0.9),
             rgba(39, 32, 68, 0.9)
         ),
-        url("/images/footerimage.JPG");
+        url('/images/footerimage.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -199,7 +196,7 @@ footer a {
     color: aliceblue;
 }
 
-.moreAboutIvan{
+.moreAboutIvan {
     font-size: 12px;
 }
 
@@ -226,9 +223,14 @@ footer a {
     }
     main img {
         margin-left: 130px;
-        width: 650px;
+        width: 670px;
     }
-
+    /* .ivanIntroFull {
+        margin-top: 50px;
+    } */
+    .ivanIntro {
+        margin-top: 5px;
+    }
     main h3 {
         margin-top: -290px;
         text-align: center;
@@ -245,7 +247,6 @@ footer a {
         width: 920px;
         margin-left: 55px;
         margin-top: 70px;
-        
     }
     .section-2 {
         width: 938px;
@@ -299,19 +300,20 @@ footer a {
         width: 938px;
         margin-left: 40px;
     }
-    .footer-margin{
-        margin-left:-60px
+    .footer-margin {
+        margin-left: -60px;
     }
 
     .abt-me {
-         margin-left: 35px !important; 
+        margin-left: 35px !important;
     }
 
     .abt-site {
         font-size: 32px !important;
         margin-left: 35px !important;
-    
-    footer h4 {
-        font-size: 38px;
+
+        footer h4 {
+            font-size: 38px;
+        }
     }
 }
