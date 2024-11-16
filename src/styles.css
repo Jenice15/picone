@@ -213,6 +213,9 @@ footer a {
         width: 1150px;
         height: 600px;
     }
+    .header-paragraph {
+        font-size: 32px;
+    }
 
     .grid {
         display: grid;
