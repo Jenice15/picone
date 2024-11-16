@@ -11,12 +11,17 @@ body {
 header {
     text-align: center;
     background-image: linear-gradient(rgba(10, 8, 8, 0.6), rgba(11, 6, 6, 0.6)),
-        url("/images/headerimage.JPG");
+        url("/images/IvanHeaderCollage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
 }
 
+.ivanIntro{
+    padding-top: 200px;
+    font-size: 18px;
+
+}
 h1 {
     font-family: Playfair Display;
     font-size: 96px;
