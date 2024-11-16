@@ -225,6 +225,7 @@ footer a {
         width: 1000px;
     }
     main img {
+<<<<<<< HEAD
         margin-left: 130px;
         width: 670px;
     }
@@ -234,6 +235,10 @@ footer a {
     .ivanIntro {
         margin-top: 1px;
         padding-top: 0;
+=======
+        margin-left: 189px;
+        width: 650px;
+>>>>>>> parent of 66b5484 (added margin top for section-2)
     }
     main h3 {
         margin-top: -290px;
@@ -248,9 +253,14 @@ footer a {
         font-size: 38px !important;
     }
     .section-1 {
+<<<<<<< HEAD
         width: 920px;
         margin-left: 55px;
         margin-top: 70px;
+=======
+        width: 938px;
+        margin-left: 50px;
+>>>>>>> parent of 66b5484 (added margin top for section-2)
     }
     .section-2 {
         width: 938px;
